@@ -1,0 +1,28 @@
+@mixin very-small-heading {
+  font-family: var(--font-family-regular);
+  font-size: var(--font-size-testimonials);
+  font-weight: var(--font-weight-regular);
+  line-height: var(--line-height-heading);
+  margin: 0;
+}
+
+@mixin regular-paragraph {
+  font-size: var(--font-size-base);
+
+  @include paragraph-setup;
+  @include respond(phone) {
+    font-size: var(--font-size-regular);
+  }
+}
+
+@mixin headings-setup {
+  color: var(--color-primary);
+  line-height: var(--line-height-heading);
+  margin: 0;
+}
+
+@mixin paragraph-setup {
+  font-family: var(--font-family-regular);
+  font-weight: var(--font-weight-regular);
+  margin: 0;
+}

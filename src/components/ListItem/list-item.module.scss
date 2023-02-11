@@ -1,0 +1,21 @@
+.item {
+  @include respond(phone) {
+    font-size: var(--font-size-regular);
+  }
+
+  color: var(--color-gray-dark);
+  padding-left: var(--spacer-xl);
+  position: relative;
+
+  &::before {
+    background-color: var(--color-primary);
+    border-radius: var(--border-radius-round);
+    content: '';
+    height: 0.8rem;
+    left: 0;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 0.8rem;
+  }
+}

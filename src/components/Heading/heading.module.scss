@@ -1,0 +1,44 @@
+.big {
+  @include headings-setup;
+  @include respond(phone) {
+    font-size: var(--font-size-heading-medium);
+  }
+
+  font-family: var(--font-family-heading);
+  font-size: var(--font-size-heading-big);
+  font-weight: var(--font-weight-bold);
+}
+
+.medium {
+  @include headings-setup;
+  @include respond(phone) {
+    font-size: var(--font-size-heading-small);
+  }
+
+  font-family: var(--font-family-heading);
+  font-size: var(--font-size-heading-medium);
+  font-weight: var(--font-weight-bold);
+}
+
+.small {
+  @include headings-setup;
+  @include respond(phone) {
+    font-size: var(--font-size-regular);
+  }
+
+  font-family: var(--font-family-regular);
+  font-size: var(--font-size-heading-small);
+  font-weight: var(--font-weight-bold);
+}
+
+.very-small--primary {
+  @include very-small-heading;
+
+  color: var(--color-primary);
+}
+
+.very-small--secondary {
+  @include very-small-heading;
+
+  color: var(--color-secondary);
+}

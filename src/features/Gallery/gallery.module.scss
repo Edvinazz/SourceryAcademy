@@ -1,0 +1,396 @@
+.section {
+  background-color: var(--color-gray-light);
+  height: 59rem;
+  padding-top: 19rem;
+  position: relative;
+  width: 100%;
+}
+
+.container {
+  @include display-flex(column, flex-start);
+  @include respond(tab-port) {
+    align-items: center;
+  }
+
+  gap: var(--spacer-l);
+  width: 100%;
+}
+
+.grid-container {
+  @include respond(tab-port) {
+    grid-template-columns: 1fr 1fr;
+  }
+  @include respond(phone) {
+    grid-template-columns: 1fr;
+  }
+
+  display: grid;
+  grid-gap: var(--spacer-xxxl);
+  grid-template-columns: repeat(4, 1fr);
+  width: 100%;
+}
+
+.grid-item {
+  border-radius: var(--border-radius-main);
+  box-shadow: var(--box-shadow);
+  cursor: pointer;
+  height: 22rem;
+  outline: var(--border-colored);
+  overflow: hidden;
+
+  &:focus-visible {
+    outline: 0.4rem dashed var(--color-focus);
+  }
+}
+
+.grid-item:nth-child(4n + 2),
+.grid-item:nth-child(8n + 6) {
+  @include respond(tab-port) {
+    grid-column: span 1;
+  }
+  @include respond(phone) {
+    grid-column: span 1;
+  }
+
+  grid-column: span 2;
+}
+
+.img {
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.4s;
+  width: 100%;
+  z-index: 0;
+
+  &:hover {
+    transform: scale(105%);
+  }
+}
+
+.modal {
+  background: rgba(0, 0, 0, 0.9);
+  height: 100%;
+  left: 0;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 100;
+}
+
+.img-modal {
+  @include respond(tab-port) {
+    max-height: 70%;
+  }
+  @include respond(phone) {
+    max-width: 90%;
+  }
+
+  left: 50%;
+  max-height: 90%;
+  max-width: 80%;
+  position: fixed;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.display-none {
+  display: none;
+}
+
+.right {
+  @include respond(tab-port) {
+    position: fixed;
+    top: 90%;
+  }
+  @include respond(phone) {
+    position: fixed;
+    top: 90%;
+  }
+
+  cursor: pointer;
+  height: 4rem;
+  position: fixed;
+  right: 0%;
+  top: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  transition: transform 0.1s;
+  width: 4rem;
+
+  $transition-time: 0.15s;
+
+  &-top,
+  &-bottom {
+    background-color: var(--color-primary);
+    height: 4px;
+    left: -5px;
+    position: absolute;
+    top: 50%;
+    width: 100%;
+
+    &::after {
+      background-color: var(--color-white);
+      content: '';
+      height: 100%;
+      position: absolute;
+      top: 0;
+      transition: all $transition-time;
+    }
+  }
+
+  &-top {
+    transform: rotate(45deg);
+    transform-origin: bottom right;
+
+    &::after {
+      left: 100%;
+      right: 0;
+      transition-delay: 0s;
+    }
+  }
+
+  &-bottom {
+    transform: rotate(-45deg);
+    transform-origin: top right;
+
+    &::after {
+      left: 0;
+      right: 100%;
+      transition-delay: $transition-time;
+    }
+  }
+
+  &:active {
+    transform: translateX(-50%) translateY(-50%) scale(0.9);
+  }
+
+  &:hover & {
+    &-top::after {
+      left: 0;
+      transition-delay: $transition-time;
+    }
+
+    &-bottom::after {
+      right: 0;
+      transition-delay: 0s;
+    }
+  }
+}
+
+.left {
+  @include respond(tab-port) {
+    position: fixed;
+    top: 90%;
+  }
+  @include respond(phone) {
+    position: fixed;
+    top: 90%;
+  }
+
+  cursor: pointer;
+  height: 4rem;
+  left: 4rem;
+  position: fixed;
+  right: 90%;
+  top: 50%;
+  transform: translateX(-50%) translateY(-50%) rotateY(180deg);
+  transition: transform 0.1s;
+  width: 4rem;
+
+  $transition-time: 0.15s;
+
+  &-top,
+  &-bottom {
+    background-color: var(--color-primary);
+    height: 4px;
+    position: absolute;
+    right: -5px;
+    top: 50%;
+    width: 100%;
+
+    &::after {
+      background-color: var(--color-white);
+      content: '';
+      height: 100%;
+      position: absolute;
+      top: 0;
+      transition: all $transition-time;
+    }
+  }
+
+  &-top {
+    transform: rotate(45deg);
+    transform-origin: bottom right;
+
+    &::after {
+      left: 100%;
+      right: 0;
+      transition-delay: 0s;
+    }
+  }
+
+  &-bottom {
+    transform: rotate(-45deg);
+    transform-origin: top right;
+
+    &::after {
+      left: 0;
+      right: 100%;
+      transition-delay: $transition-time;
+    }
+  }
+
+  &:active {
+    transform: translateX(-50%) translateY(-50%) rotateY(180deg) scale(0.9);
+  }
+
+  &:hover & {
+    &-top::after {
+      left: 0;
+      transition-delay: $transition-time;
+    }
+
+    &-bottom::after {
+      right: 0;
+      transition-delay: 0s;
+    }
+  }
+}
+
+.close-btn {
+  background: none;
+  border: 0;
+  cursor: pointer;
+  height: 4rem;
+  margin: 0;
+  padding: 0;
+  position: fixed;
+  right: 2rem;
+  top: 2rem;
+  width: 5.4rem;
+
+  $transition-time: 0.15s;
+
+  &::before,
+  &::after {
+    background: var(--color-primary);
+    border-radius: 0.6rem;
+    content: '';
+    height: 0.6rem;
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 2.7rem;
+  }
+
+  &::before {
+    transform: rotate(45deg);
+  }
+
+  &::after {
+    transform: rotate(-45deg);
+  }
+
+  &:active {
+    transform: scale(0.9);
+  }
+
+  span {
+    display: block;
+  }
+}
+
+.line-container-home {
+  @include respond(tab-land) {
+    display: none;
+  }
+  @include respond(tab-port) {
+    display: none;
+  }
+  @include respond(phone) {
+    display: none;
+  }
+
+  bottom: 35.02rem;
+  left: 0;
+  position: absolute;
+  stroke: var(--color-primary);
+  stroke-width: 2;
+  width: 34rem;
+  z-index: -99;
+
+  path {
+    stroke: var(--color-primary);
+  }
+}
+
+.line-container-testers {
+  @include respond(tab-land) {
+    display: none;
+  }
+  @include respond(tab-port) {
+    display: none;
+  }
+  @include respond(phone) {
+    display: none;
+  }
+
+  bottom: 76.02rem;
+  left: -2.6rem;
+  position: absolute;
+  stroke: var(--color-primary);
+  stroke-width: 2;
+  width: 13rem;
+  z-index: -99;
+
+  path {
+    stroke: var(--color-primary);
+  }
+}
+
+.line-container-frontend {
+  @include respond(tab-land) {
+    display: none;
+  }
+  @include respond(tab-port) {
+    display: none;
+  }
+  @include respond(phone) {
+    display: none;
+  }
+
+  bottom: 72.02rem;
+  left: -2.6rem;
+  position: absolute;
+  stroke: var(--color-primary);
+  stroke-width: 2;
+  width: 13rem;
+  z-index: -99;
+
+  path {
+    stroke: var(--color-primary);
+  }
+}
+
+.line-container-developers {
+  @include respond(tab-land) {
+    display: none;
+  }
+  @include respond(tab-port) {
+    display: none;
+  }
+  @include respond(phone) {
+    display: none;
+  }
+
+  bottom: 75.02rem;
+  left: -2.6rem;
+  position: absolute;
+  stroke: var(--color-primary);
+  stroke-width: 2;
+  width: 13rem;
+  z-index: -99;
+
+  path {
+    stroke: var(--color-primary);
+  }
+}

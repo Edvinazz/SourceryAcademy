@@ -1,0 +1,95 @@
+{
+  "meta": {
+    "title": "Sourcery for Testers",
+    "description": "Kick off your career in software testing with our free of charge three-month academy “Sourcery for Testers”, available this summer. Work with our top specialists as your mentors and lecturers in Kaunas and Vilnius."
+  },
+
+  "testersIntro": {
+    "heading": "Set your inner tester free with Sourcery for Testers!",
+    "paragraph": "Kick off your career in software testing with our free of charge three-month academy “Sourcery for Testers”, available this summer. Work with our top specialists as your mentors and lecturers in Kaunas and Vilnius.",
+    "btn": "Register",
+    "path": "/register"
+  },
+
+  "academyStepsSection": [
+    {
+      "id": "step001",
+      "number": "1",
+      "heading": "Apply",
+      "paragraph": "Academy students are given an opportunity to be immersed in a professional two-month course for the testing beginners, build their competence through trainings and individual or groups assignments."
+    },
+
+    {
+      "id": "step002",
+      "number": "2",
+      "heading": "Pass the admission",
+      "paragraph": "Best candidates will be offered a paid internship for the Academy period to work on the real projects with our development teams. In parallel they are expected to attend academy to develop their skills."
+    },
+
+    {
+      "id": "step003",
+      "number": "3",
+      "heading": "Learn from the experts",
+      "paragraph": "Students will discover all types of techniques: learn the foundations of testing, functional testing for web applications and API, foundations of non-functional testing and foundations for test automation."
+    },
+
+    {
+      "id": "step004",
+      "number": "4",
+      "heading": "Join the company",
+      "paragraph": "At the end of term all students will receive a certificate of completion the Sourcery academy for Testers. Top graduates will be invited for an interview to become a Junior Test Engineer."
+    }
+  ],
+
+  "admissionSections": [
+    {
+      "id": "sect001",
+      "heading": "Introduction and workshop",
+      "text": "4 to 5 hours of activities. We will introduce the Sourcery academy, tell you more about what we do as front-end developers, get to know each other and have a fun workshop challenging your critical thinking, problem solving, communication and team working skills."
+    },
+    {
+      "id": "sect002",
+      "heading": "You will learn:",
+      "text": [
+        "The foundations of testing",
+        "Functional testing for web applications and API",
+        "Foundations of non-functional testing",
+        "Foundations for test automation"
+      ]
+    },
+    {
+      "id": "sect003",
+      "heading": "An interview",
+      "text": "Only the top candidates after the final exam are invited to a job interview which will challenge your technical skills and English knowledge."
+    }
+  ],
+
+  "admissionDates": [
+    {
+      "id": "date001",
+      "date": "2023-05-17",
+      "description": "Application deadline"
+    },
+    {
+      "id": "date002",
+      "date": "2023-05-28",
+      "secondDate": "2023-05-29",
+      "description": "Admission"
+    },
+    {
+      "id": "date003",
+      "date": "2023-06-26",
+      "secondDate": "2023-08-30",
+      "description": "Academy duration"
+    }
+  ],
+
+  "testiminialsUrl": "https://www.jurele.lt/testimonials.json",
+
+  "apply": {
+    "heading": "Apply to academy",
+    "paragraph": "Set your inner tester free and apply to empower yourself with the top-notch studies for the future Test Engineers!",
+    "btn": "Apply now",
+    "path": "/register"
+  }
+}

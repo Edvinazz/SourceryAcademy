@@ -1,0 +1,108 @@
+.header {
+  align-items: center;
+  background-color: var(--color-white);
+  display: flex;
+  flex-direction: row;
+  height: 9.6rem;
+  justify-content: space-between;
+  left: 0;
+  max-width: 180rem;
+  position: sticky;
+  top: 0;
+  transition: top 0.4s ease-out;
+  width: 100%;
+  z-index: 99;
+
+  &.hidden {
+    top: -9.6rem;
+    transition: top 0.4s ease-out;
+  }
+}
+
+.logo-wrapper {
+  align-items: center;
+  display: flex;
+  height: 100%;
+  margin-left: 5rem;
+  padding: 0;
+  position: relative;
+}
+
+.navigation-list {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  gap: var(--spacer-xl);
+  list-style-type: none;
+  margin-bottom: auto;
+  margin-top: auto;
+  padding: 0;
+}
+
+.nav {
+  align-items: center;
+  display: flex;
+  list-style-type: none;
+  margin-right: 5rem;
+  padding: 0;
+  position: relative;
+
+  @include respond(tab-port) {
+    margin-right: 1rem;
+  }
+}
+
+.nav-links {
+  background: none;
+  border: 0;
+  color: var(--color-default);
+  cursor: pointer;
+  font-family: var(--font-family-regular);
+  font-size: var(--font-size-base);
+  font-style: normal;
+  font-weight: 400;
+  text-decoration: none;
+  white-space: nowrap;
+}
+
+.nav-button {
+  background: none;
+  border: 0;
+  cursor: pointer;
+  padding: 0;
+}
+
+.icon {
+  cursor: pointer;
+  height: 0.8rem;
+  margin-left: 0.7rem;
+  margin-top: 0.8rem;
+  padding-bottom: 1.45;
+  transform: rotate(0deg);
+  transition: transform 300ms;
+  width: 1.37rem;
+
+  &.is-active {
+    transform: rotate(180deg);
+    transition: transform 300ms;
+  }
+}
+
+.title {
+  color: var(--color-default);
+  font-family: var(--font-family-regular);
+  font-size: var(--font-size-base);
+  font-style: normal;
+  font-weight: 700;
+  margin-bottom: auto;
+  margin-left: var(--spacer-xl);
+  margin-top: auto;
+  text-decoration: none;
+  white-space: nowrap;
+}
+
+.logo {
+  background: var(--color-white);
+  height: 4rem;
+  width: 4rem;
+}

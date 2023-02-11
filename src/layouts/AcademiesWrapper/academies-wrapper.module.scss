@@ -1,0 +1,22 @@
+.wrapper {
+  @include respond(tab-port) {
+    gap: 18rem;
+  }
+  @include respond(phone) {
+    gap: 15rem;
+    padding: var(--spacer-xxxxxxl) var(--spacer-xxxl) 14rem;
+  }
+
+  align-items: center;
+  background: url('../../assets/svg/Particles/ParticlesAcademies.svg') no-repeat
+    50% 102rem;
+  display: flex;
+  flex-direction: column;
+  gap: 28rem;
+  justify-content: flex-start;
+  max-width: 130rem;
+  min-height: 100vh;
+  padding: 16rem 5rem 14rem;
+  position: relative;
+  width: 100%;
+}

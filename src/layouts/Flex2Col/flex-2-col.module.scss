@@ -1,0 +1,71 @@
+.container {
+  @include display-flex(row, center, flex-start);
+
+  gap: 10%;
+  justify-items: center;
+
+  &--right {
+    flex-direction: row;
+  }
+
+  &--left {
+    flex-direction: row-reverse;
+  }
+
+  @include respond(tab-land) {
+    gap: 5%;
+  }
+
+  @include respond(tab-port) {
+    flex-direction: column;
+    gap: 2%;
+
+    &--right {
+      align-items: end;
+    }
+
+    &--left {
+      align-items: start;
+    }
+  }
+
+  @include respond(phone) {
+    &--right,
+    &--left {
+      align-items: center;
+    }
+  }
+}
+
+.asset {
+  width: 100%;
+
+  &--medium {
+    flex: 4;
+  }
+
+  &--big {
+    flex: 5;
+  }
+
+  @include respond(tab-land) {
+    flex: 1;
+  }
+
+  @include respond(tab-port) {
+    margin-bottom: var(--spacer-xxxl);
+    width: 70%;
+  }
+
+  @include respond(phone) {
+    width: 90%;
+  }
+}
+
+.text {
+  flex: 5;
+
+  @include respond(tab-land) {
+    flex: 1;
+  }
+}

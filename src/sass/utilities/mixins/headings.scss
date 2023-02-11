@@ -1,0 +1,7 @@
+@mixin very-small-heading {
+  font-family: var(--font-family-regular);
+  font-size: var(--font-size-testimonials);
+  font-weight: var(--font-weight-regular);
+  line-height: var(--line-height-heading);
+  margin: 0;
+}

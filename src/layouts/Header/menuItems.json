@@ -1,0 +1,14 @@
+[
+  {
+    "id": 1,
+    "name": "Sourcery for Developers",
+    "path": "/developers"
+  },
+  { "id": 2, "name": "Sourcery for Testers", "path": "/testers" },
+  { "id": 3, "name": "Sourcery for Front-End", "path": "/frontend" },
+  {
+    "id": 4,
+    "name": "Sourcery for Kids",
+    "path": "https://sourceryacademy.com/en/academy/kids/"
+  }
+]

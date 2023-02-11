@@ -1,0 +1,92 @@
+{
+  "meta": {
+    "title": "Sourcery for Front-End",
+    "description": "Start your career in software development with the intense program at Sourcery for Front-End. Complete the admission and enter our free of charge three-month academy to learn from our top specialists."
+  },
+
+  "frontendIntro": {
+    "heading": "Push the Pixels with Sourcery Academy for Front-End",
+    "paragraph": "Start your career in software development with the intense program at Sourcery for Front-End. Complete the admission and enter our free of charge three-month academy to learn from our top specialists.",
+    "btn": "Register",
+    "path": "/register"
+  },
+
+  "academyStepsSection": [
+    {
+      "id": "step001",
+      "number": "1",
+      "heading": "Apply",
+      "paragraph": "Academy students are given an opportunity to be immersed in a professional two-month course for the front-end developers, build their competence through trainings and individual or groups assignments."
+    },
+
+    {
+      "id": "step002",
+      "number": "2",
+      "heading": "Pass the admission",
+      "paragraph": "Entry test is performed by those candidates who submit their summary. Test results define a priority list of candidates who are invited into the workshop. We accept 20 candidates with highest marks into academy."
+    },
+
+    {
+      "id": "step003",
+      "number": "3",
+      "heading": "Learn from the experts",
+      "paragraph": "Students will discover all types, techniques and design approaches. They will learn how to write semantic elements in HTML, apply advanced CSS techniques, understand accessibility standards and many more."
+    },
+
+    {
+      "id": "step004",
+      "number": "4",
+      "heading": "Join the company",
+      "paragraph": "The Academy starts in the end of October and lasts until January.. Top graduates will be invited for an interview to become a Junior Front-End Software Engineer."
+    }
+  ],
+
+  "admissionSections": [
+    {
+      "id": "sect001",
+      "heading": "Introduction and workshop",
+      "text": "4 to 5 hours of activities. We will introduce the Sourcery academy, tell you more about what we do as front-end developers, get to know each other and have a fun workshop challenging your critical thinking, problem solving, communication and team working skills."
+    },
+    {
+      "id": "sect002",
+      "heading": "You will learn:",
+      "text": [
+        "Semantic HTML code",
+        "Advanced CSS (Scss)",
+        "BEM methodology",
+        "Accessibility standards",
+        "Agile methodology, build tools and task runners"
+      ]
+    },
+    {
+      "id": "sect003",
+      "heading": "An interview",
+      "text": "Only the top candidates after the final exam are invited to a job interview which will challenge your technical skills and English knowledge."
+    }
+  ],
+
+  "admissionDates": [
+    {
+      "id": "date001",
+      "date": "2022-09-26",
+      "secondDate": "2022-09-28",
+      "description": "Entrance exam"
+    },
+    {
+      "id": "date002",
+      "date": "2022-10-30",
+      "secondDate": "2022-12-18",
+      "description": "Academy duration"
+    },
+    { "id": "date003", "date": "2023-01-08", "description": "Final exam" }
+  ],
+
+  "testiminialsUrl": "https://www.jurele.lt/testimonials.json",
+
+  "apply": {
+    "heading": "Apply to academy",
+    "paragraph": "Start your career in software development with the intense program at Sourcery for Front-End Developers.",
+    "btn": "Apply now",
+    "path": "/register"
+  }
+}

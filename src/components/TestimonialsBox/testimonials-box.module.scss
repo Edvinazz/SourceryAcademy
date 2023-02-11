@@ -1,0 +1,36 @@
+.image {
+  border-radius: var(--border-radius-round);
+  height: 8rem;
+  width: 8rem;
+}
+
+.text-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 0.2rem 0;
+}
+
+.quotes {
+  color: var(--color-primary);
+  font-family: var(--font-family-heading);
+  font-size: 3.9rem;
+  font-weight: var(--font-weight-bold);
+  line-height: 1;
+
+  &:nth-of-type(1) {
+    align-self: flex-start;
+  }
+
+  &:nth-of-type(2) {
+    align-self: flex-end;
+  }
+}
+
+.heading-container {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacer-xs);
+  text-align: center;
+}

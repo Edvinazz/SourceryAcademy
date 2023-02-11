@@ -1,0 +1,36 @@
+.btn {
+  @include display-flex(column, center, space-between);
+
+  height: 14rem;
+  margin: 0 auto;
+  stroke: var(--color-primary);
+  stroke-width: 2;
+  transition: stroke 0.2s;
+  width: 4.8rem;
+
+  &:hover {
+    stroke: var(--color-secondary);
+  }
+
+  &:active {
+    stroke: var(--color-secondary-tint);
+  }
+
+  &__line {
+    width: 0.3rem;
+  }
+
+  &__icon {
+    background: none;
+    border: transparent;
+    border-radius: 50%;
+    cursor: pointer;
+    padding: 0;
+    width: 4.8rem;
+
+    &:focus-visible {
+      outline: 0.4rem dashed var(--color-focus);
+      outline-offset: 1rem;
+    }
+  }
+}

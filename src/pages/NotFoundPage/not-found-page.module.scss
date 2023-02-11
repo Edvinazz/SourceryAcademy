@@ -1,0 +1,87 @@
+.container {
+  @include display-flex(row, center, center);
+
+  background: url('../../assets/svg/Particles/ParticlesHome.svg') no-repeat 0
+    3rem;
+  height: calc(100vh - 18.4rem);
+  max-width: 140rem;
+  padding: var(--spacer-xxxl) var(--spacer-xxxxxxl);
+  position: relative;
+  width: 100%;
+
+  @include respond(phone) {
+    flex-direction: column;
+    padding: var(--spacer-l) var(--spacer-xl);
+    width: 80%;
+  }
+}
+
+.heading {
+  color: var(--color-background);
+  font-family: var(--font-family-heading);
+  font-size: 50rem;
+  font-weight: var(--font-weight-bold);
+  line-height: 1;
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  user-select: none;
+  z-index: -10;
+
+  @include respond(tab-land) {
+    font-size: 40rem;
+  }
+
+  @include respond(tab-port) {
+    font-size: 30rem;
+  }
+
+  @include respond(phone) {
+    color: var(--color-primary);
+    font-size: var(--font-size-heading-big);
+    position: relative;
+  }
+}
+
+.paragraph {
+  color: var(--color-gray-dark);
+  font-family: var(--font-family-heading);
+  font-size: var(--font-size-heading-medium);
+  font-weight: var(--font-weight-bold);
+  margin-bottom: var(--spacer-xxxxl);
+
+  br {
+    content: '';
+    display: block;
+    margin-top: var(--spacer-xxxl);
+
+    @include respond(phone) {
+      margin-top: var(--spacer-l);
+    }
+  }
+
+  @include respond(phone) {
+    font-size: var(--font-size-heading-small);
+  }
+}
+
+.link {
+  color: var(--color-secondary);
+  cursor: pointer;
+  text-decoration: none;
+  transition: color 0.2s;
+
+  &:hover {
+    color: var(--color-secondary-shade);
+  }
+
+  &:active {
+    color: var(--color-secondary-tint);
+  }
+
+  &:focus-visible {
+    color: var(--color-secondary-tint);
+    outline: 0.4rem dashed var(--color-focus);
+    padding: 0.5rem 1rem;
+  }
+}

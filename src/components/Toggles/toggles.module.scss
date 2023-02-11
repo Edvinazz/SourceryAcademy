@@ -1,0 +1,81 @@
+.wrapper {
+  @include respond(tab-land) {
+    max-width: 65rem;
+  }
+  @include respond(tab-port) {
+    max-width: 46rem;
+  }
+  @include respond(phone) {
+    max-width: 26rem;
+  }
+
+  border: 0.2rem solid var(--color-primary);
+  border-radius: 7rem;
+  display: flex;
+  max-width: 85rem;
+  overflow: hidden;
+  position: relative;
+  width: max-content;
+
+  &:focus-visible {
+    border: 2px solid var(--color-tertiary);
+    outline: 0.4rem dashed var(--color-focus);
+  }
+}
+
+.inner-wrapper {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  transition: all 250ms linear;
+  width: max-content;
+}
+
+.slider-wrapper {
+  display: inline-block;
+  height: 100%;
+  left: 0;
+  padding: var(--spacer-xs);
+  position: absolute;
+  top: 0;
+  transition: all 250ms linear;
+}
+
+.slider {
+  background-color: var(--color-secondary);
+  border-radius: 7rem;
+  display: inline-block;
+  height: 100%;
+  width: 18rem;
+}
+
+.arrow--left {
+  background: no-repeat center/90% url('../../assets/svg/Icons/LeftArrow');
+  background-color: var(--color-white);
+  left: 0;
+}
+
+.arrow--right {
+  background: no-repeat center/90% url('../../assets/svg/Icons/RightArrow.svg');
+  background-color: var(--color-white);
+  right: 0;
+}
+
+.arrow--left,
+.arrow--right {
+  border: 0;
+  height: 7rem;
+  min-width: 3rem;
+  position: absolute;
+  z-index: 55;
+
+  &:hover {
+    background-color: var(--color-gray-light);
+    cursor: pointer;
+  }
+
+  &:focus-visible {
+    background-color: var(--color-focus);
+    outline: none;
+  }
+}

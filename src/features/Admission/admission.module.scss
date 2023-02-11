@@ -1,0 +1,86 @@
+.container {
+  display: flex;
+  flex-direction: row;
+  gap: var(--spacer-xxxxl);
+  justify-content: space-between;
+  margin-bottom: var(--spacer-xl);
+  position: relative;
+  width: 100%;
+
+  @include respond(tab-port) {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+  @include respond(phone) {
+    gap: 0;
+  }
+}
+
+.text {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  gap: var(--spacer-xxxxl);
+
+  @include respond(tab-port) {
+    margin-bottom: var(--spacer-xxxxxl);
+    max-width: 100%;
+  }
+}
+
+.date {
+  align-items: flex-end;
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  margin-top: var(--spacer-xxxl);
+  position: relative;
+
+  @include respond(tab-port) {
+    align-items: flex-start;
+    margin-top: 15rem;
+    width: 100%;
+  }
+  @include respond(phone) {
+    margin-top: 5rem;
+  }
+}
+
+.dates {
+  display: grid;
+  gap: 1rem;
+  margin-top: var(--spacer-xxl);
+  max-width: 35rem;
+  min-height: 20rem;
+  width: auto;
+}
+
+.figure {
+  margin-top: 14rem;
+  max-height: 32rem;
+  position: relative;
+  right: -4rem;
+
+  @include respond(tab-port) {
+    margin-top: 4rem;
+    place-self: flex-end;
+    right: 0;
+  }
+}
+
+.line {
+  color: var(--color-primary);
+  position: absolute;
+  right: -8rem;
+  top: -30rem;
+  width: 47rem;
+
+  @include respond(tab-port) {
+    right: 38vw;
+    top: 38%;
+    transform: rotateY(0.5turn);
+  }
+  @include respond(phone) {
+    display: none;
+  }
+}

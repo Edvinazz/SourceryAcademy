@@ -1,0 +1,79 @@
+{
+  "meta": {
+    "title": "Sourcery for Developers",
+    "description": "Become a software development with our free of charge three-month academy, available this fall and spring. Work with our top specialists as your mentors and lecturers in Kaunas and Vilnius."
+  },
+
+  "developersIntro": {
+    "heading": "Sourcery Academy for Developers",
+    "paragraph": "Become a software development with our free of charge three-month academy, available this fall and spring. Work with our top specialists as your mentors and lecturers in Kaunas and Vilnius.",
+    "btn": "Register",
+    "path": "/register"
+  },
+
+  "academyStepsSection": [
+    {
+      "id": "step001",
+      "number": "1",
+      "heading": "Apply",
+      "paragraph": "Academy students are given an opportunity to be immersed in a professional three-month course for the developer beginners, build their competence through trainings and individual or group assignments."
+    },
+
+    {
+      "id": "step002",
+      "number": "2",
+      "heading": "Pass the admission",
+      "paragraph": "Registration is available for candidates who are willing to pass the entry exam. Results define a list of candidates who are invited into the workshop. We accept 20 candidates with highest marks into the academy."
+    },
+
+    {
+      "id": "step003",
+      "number": "3",
+      "heading": "Learn from the experts",
+      "paragraph": "Students will learn the latest technologies and how to create software using the best tools on the market. Devbridge assigns a mentor to each student to serve as a resource for their development projects."
+    },
+
+    {
+      "id": "step004",
+      "number": "4",
+      "heading": "Join the company",
+      "paragraph": "At the end of term all students will receive recognition for completing the course and top students may receive job offers from Devbridge."
+    }
+  ],
+
+  "admissionSections": [
+    {
+      "id": "sect001",
+      "heading": "Introduction",
+      "text": "During your first lecture we will introduce the Sourcery academy, tell you more about what we do as developers, get to know your fellow team members, lecturers and mentors."
+    },
+    {
+      "id": "sect002",
+      "heading": "You will learn:",
+      "text": ["React", "JPA", "Spring Boot"]
+    },
+    {
+      "id": "sect003",
+      "heading": "An interview",
+      "text": "Only the top candidates after the final exam are invited to a job interview which will challenge your technical skills and English knowledge."
+    }
+  ],
+  "admissionDates": [
+    { "id": "date001", "date": "2022-10-02", "description": "Entrance exam" },
+    {
+      "id": "date002",
+      "date": "2022-10-09",
+      "secondDate": "2022-12-12",
+      "description": "Academy duration"
+    },
+    { "id": "date003", "date": "2022-12-16", "description": "Final exam" }
+  ],
+  "testiminialsUrl": "https://www.jurele.lt/testimonials.json",
+
+  "apply": {
+    "heading": "Apply to academy",
+    "paragraph": "Entrance test results define a priority list of candidates. We accept 20 candidates with highest marks into academy.",
+    "btn": "Apply now",
+    "path": "/register"
+  }
+}

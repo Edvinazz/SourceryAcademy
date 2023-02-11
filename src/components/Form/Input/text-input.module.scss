@@ -1,0 +1,13 @@
+.container {
+  @include display-flex(column);
+
+  gap: var(--spacer-xxs);
+  position: relative;
+}
+
+.error {
+  @include very-small-heading;
+
+  color: var(--color-asterisk);
+  padding-left: var(--spacer-s);
+}

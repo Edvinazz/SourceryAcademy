@@ -1,0 +1,92 @@
+.date-info {
+  align-items: center;
+  border: var(--border-colored);
+  border-radius: var(--border-radius-s);
+  display: flex;
+  padding-bottom: var(--spacer-xs);
+  padding-top: var(--spacer-xs);
+
+  p {
+    color: var(--color-primary);
+    margin: 0;
+  }
+
+  .dates {
+    display: flex;
+    gap: var(--spacer-m);
+    padding-left: var(--spacer);
+    padding-right: var(--spacer);
+    position: relative;
+
+    &::after {
+      background-color: var(--color-primary);
+      border-radius: var(--border-radius-s);
+      content: '';
+      height: 100%;
+      position: absolute;
+      right: 0;
+      width: 0.2rem;
+    }
+
+    &.dates--location {
+      justify-content: center;
+      width: 100px;
+    }
+  }
+
+  .date {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .date--second {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+
+    &::before {
+      color: var(--color-primary);
+      content: '-';
+      font-size: var(--font-size-base);
+      left: calc(0px - (var(--spacer-m)));
+      line-height: var(--font-size-base);
+      position: absolute;
+      top: 50%;
+      transform: translate(50%, -50%);
+    }
+  }
+
+  .description {
+    align-items: center;
+    display: flex;
+    gap: var(--spacer-xs);
+    padding-left: var(--spacer);
+    padding-right: var(--spacer);
+  }
+
+  .month {
+    font-size: var(--font-size-testimonials);
+    line-height: var(--line-height-heading);
+  }
+
+  .day {
+    font-weight: var(--font-weight-bold);
+    margin-top: -0.5rem;
+  }
+}
+
+.pin-icon {
+  height: 2rem;
+  width: 1.4rem;
+
+  svg {
+    height: 100%;
+    width: 100%;
+
+    path {
+      fill: var(--color-primary);
+    }
+  }
+}

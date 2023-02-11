@@ -1,0 +1,246 @@
+[
+  {
+    "schedules": "June / July",
+    "monthSchedule": [
+      {
+        "month": "June",
+        "schedule": [
+          {
+            "title": "Kickoff: Testing Foundations & Agile intro",
+            "description": "Agnieszka Pedlewska",
+            "time": "12:00 pm",
+            "duration": "5 hours",
+            "content": [
+              {
+                "date": "2022 June 29",
+                "description": "Vilnius",
+                "locationIcon": true
+              },
+              {
+                "date": "2022 June 30",
+                "description": "Kaunas",
+                "locationIcon": true
+              }
+            ]
+          },
+          {
+            "title": "Client-side testing (Web + Mobile)",
+            "description": "Arūnas Žygis",
+            "time": "10:00 am",
+            "duration": "5 hours",
+            "content": [
+              {
+                "date": "2022 July 5",
+                "description": "Vilnius",
+                "locationIcon": true
+              },
+              {
+                "date": "2022 July 7",
+                "description": "Kaunas",
+                "locationIcon": true
+              }
+            ]
+          },
+          {
+            "title": "Accessibility management and testing",
+            "description": "Jurij Nesvat",
+            "time": "10:00 am",
+            "duration": "5 hours",
+            "content": [
+              {
+                "date": "2022 July 13",
+                "description": "Vilnius",
+                "locationIcon": true
+              },
+              {
+                "date": "2022 July 14",
+                "description": "Kaunas",
+                "locationIcon": true
+              }
+            ]
+          },
+          {
+            "title": "Test Automation (part 1)",
+            "description": "Justas Laužadis",
+            "time": "10:00 am",
+            "duration": "5 hours",
+            "content": [
+              {
+                "date": "2022 July 18",
+                "description": "Vilnius",
+                "locationIcon": true
+              },
+              {
+                "date": "2022 July 19",
+                "description": "Kaunas",
+                "locationIcon": true
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "month": "July",
+        "schedule": [
+          {
+            "title": "Test Automation (part 2)",
+            "description": "Justas Laužadis",
+            "time": "10:00 am",
+            "duration": "5 hours",
+            "content": [
+              {
+                "date": "2022 July 20",
+                "description": "Vilnius",
+                "locationIcon": true
+              },
+              {
+                "date": "2022 July 21",
+                "description": "Kaunas",
+                "locationIcon": true
+              }
+            ]
+          },
+          {
+            "title": "Database testing",
+            "description": "Rūta Guobienė",
+            "time": "10:00 am",
+            "duration": "5 hours",
+            "content": [
+              {
+                "date": "2022 July 25",
+                "description": "Vilnius",
+                "locationIcon": true
+              },
+              {
+                "date": "2022 July 26",
+                "description": "Kaunas",
+                "locationIcon": true
+              }
+            ]
+          },
+          {
+            "title": "API testing",
+            "description": "Gediminas Kvedaravičius",
+            "time": "10:00 am",
+            "duration": "5 hours",
+            "content": [
+              {
+                "date": "2022 July 27",
+                "description": "Vilnius",
+                "locationIcon": true
+              },
+              {
+                "date": "2022 July 28",
+                "description": "Kaunas",
+                "locationIcon": true
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "schedules": "August",
+    "monthSchedule": [
+      {
+        "month": "August",
+        "schedule": [
+          {
+            "title": "Performance testing",
+            "description": "Daniel Lipowicz",
+            "time": "10:00 am",
+            "duration": "5 hours",
+            "content": [
+              {
+                "date": "2022 August 3",
+                "description": "Vilnius",
+                "locationIcon": true
+              },
+              {
+                "date": "2022 August 4",
+                "description": "Kaunas",
+                "locationIcon": true
+              }
+            ]
+          },
+          {
+            "title": "Security testing",
+            "description": "Vladas Kabašinskas",
+            "time": "10:00 am",
+            "duration": "5 hours",
+            "content": [
+              {
+                "date": "2022 August 10",
+                "description": "Vilnius",
+                "locationIcon": true
+              },
+              {
+                "date": "2022 August 11",
+                "description": "Kaunas",
+                "locationIcon": true
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "month": "August",
+        "schedule": [
+          {
+            "title": "Context-driven testing approach",
+            "description": "Rita Birgiel",
+            "time": "10:00 am",
+            "duration": "3 hours",
+            "content": [
+              {
+                "date": "2022 August 16",
+                "description": "Vilnius",
+                "locationIcon": true
+              },
+              {
+                "date": "2022 August 17",
+                "description": "Kaunas",
+                "locationIcon": true
+              }
+            ]
+          },
+          {
+            "title": "Evaluation workshop",
+            "time": "10:00 am",
+            "duration": "6 hours",
+            "content": [
+              {
+                "date": "2022 August 22",
+                "description": "Vilnius",
+                "locationIcon": true
+              },
+              {
+                "date": "2022 August 23",
+                "description": "Kaunas",
+                "locationIcon": true
+              }
+            ]
+          },
+          {
+            "title": "Demo Day",
+            "time": "4:00 pm",
+            "duration": "2 hours",
+            "content": [
+              {
+                "date": "2022 August 24",
+                "description": "Vilnius",
+                "locationIcon": true
+              },
+              {
+                "date": "2022 August 25",
+                "description": "Kaunas",
+                "locationIcon": true
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

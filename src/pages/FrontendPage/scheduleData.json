@@ -1,0 +1,264 @@
+[
+  {
+    "schedules": "October / November",
+    "monthSchedule": [
+      {
+        "month": "March",
+        "schedule": [
+          {
+            "title": "Agile & Git Fundamentals",
+            "description": "Simas Leonavičius",
+            "time": "4:00 pm",
+            "duration": "3 hours",
+            "content": [
+              {
+                "date": "2022 October 26",
+                "description": "Vilnius",
+                "locationIcon": true
+              },
+              {
+                "date": "2022 October 27",
+                "description": "Kaunas",
+                "locationIcon": true
+              }
+            ]
+          },
+          {
+            "title": "JS fundamentals",
+            "description": "Martynas Druteika",
+            "time": "4:00 pm",
+            "duration": "3 hours",
+            "content": [
+              {
+                "date": "2020 November 3",
+                "description": "Vilnius",
+                "locationIcon": true
+              },
+              {
+                "date": "2020 November 4",
+                "description": "Kaunas",
+                "locationIcon": true
+              }
+            ]
+          },
+          {
+            "title": "React fundamentals",
+            "description": "Evelina Mikelaitytė",
+            "time": "4:00 pm",
+            "duration": "3 hours",
+            "content": [
+              {
+                "date": "2020 November 8",
+                "description": "Vilnius",
+                "locationIcon": true
+              },
+              {
+                "date": "2020 November 9",
+                "description": "Kaunas",
+                "locationIcon": true
+              }
+            ]
+          },
+          {
+            "title": "React: advanced",
+            "description": "Julius Simas Simutis",
+            "time": "4:00 pm",
+            "duration": "3 hours",
+            "content": [
+              {
+                "date": "2020 November 9",
+                "description": "Vilnius",
+                "locationIcon": true
+              },
+              {
+                "date": "2020 November 10",
+                "description": "Kaunas",
+                "locationIcon": true
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "month": "April",
+        "schedule": [
+          {
+            "title": "Project Structure & Dynamic Components",
+            "description": "Martynas Druteika",
+            "time": "4:00 pm",
+            "duration": "3 hours",
+            "content": [
+              {
+                "date": "2020 November 15",
+                "description": "Vilnius",
+                "locationIcon": true
+              },
+              {
+                "date": "2020 November 16",
+                "description": "Kaunas",
+                "locationIcon": true
+              }
+            ]
+          },
+          {
+            "title": "HTML Semantics & BEM",
+            "description": "Martynas Galkus",
+            "time": "4:00 pm",
+            "duration": "3 hours",
+            "content": [
+              {
+                "date": "2020 November 16",
+                "description": "Vilnius",
+                "locationIcon": true
+              },
+              {
+                "date": "2020 November 17",
+                "description": "Kaunas",
+                "locationIcon": true
+              }
+            ]
+          },
+          {
+            "title": "Tips & tricks to build clean and functional CSS",
+            "description": "Martynas Galkus",
+            "time": "4:00 pm",
+            "duration": "3 hours",
+            "content": [
+              {
+                "date": "2020 November 22",
+                "description": "Vilnius",
+                "locationIcon": true
+              },
+              {
+                "date": "2020 November 23",
+                "description": "Kaunas",
+                "locationIcon": true
+              }
+            ]
+          },
+          {
+            "title": "SCSS in depth",
+            "description": "Evelina Mikelaitytė",
+            "time": "4:00 pm",
+            "duration": "3 hours",
+            "content": [
+              {
+                "date": "2020 November 23",
+                "description": "Vilnius",
+                "locationIcon": true
+              },
+              {
+                "date": "2020 November 24",
+                "description": "Kaunas",
+                "locationIcon": true
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "schedules": "November / December / January",
+    "monthSchedule": [
+      {
+        "month": "April",
+        "schedule": [
+          {
+            "title": "Accessibility in depth",
+            "description": "Kęstutis Buivydas",
+            "time": "4:00 pm",
+            "duration": "3 hours",
+            "content": [
+              {
+                "date": "2020 November 30",
+                "description": "Vilnius",
+                "locationIcon": true
+              },
+              {
+                "date": "2020 December 1",
+                "description": "Kaunas",
+                "locationIcon": true
+              }
+            ]
+          },
+          {
+            "title": "Build tools",
+            "description": "Julius Simas Simutis",
+            "time": "4:00 pm",
+            "duration": "3 hours",
+            "content": [
+              {
+                "date": "2020 December 7",
+                "description": "Vilnius",
+                "locationIcon": true
+              },
+              {
+                "date": "2020 December 8",
+                "description": "Kaunas",
+                "locationIcon": true
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "month": "May",
+        "schedule": [
+          {
+            "title": "Testing",
+            "description": "Simas Leonavičius",
+            "time": "4:00 pm",
+            "duration": "3 hours",
+            "content": [
+              {
+                "date": "2020 December 14",
+                "description": "Vilnius",
+                "locationIcon": true
+              },
+              {
+                "date": "2020 December 15",
+                "description": "Kaunas",
+                "locationIcon": true
+              }
+            ]
+          },
+          {
+            "title": "Final exam",
+            "time": "4:00 pm",
+            "duration": "3 hours",
+            "content": [
+              {
+                "date": "2020 January 9",
+                "description": "Vilnius",
+                "locationIcon": true
+              },
+              {
+                "date": "2020 January 9",
+                "description": "Kaunas",
+                "locationIcon": true
+              }
+            ]
+          },
+          {
+            "title": "Demo Day, Results and Rewards",
+            "time": "4:00 pm",
+            "duration": "3 hours",
+            "content": [
+              {
+                "date": "2020 January 18",
+                "description": "Vilnius",
+                "locationIcon": true
+              },
+              {
+                "date": "2020 January 19",
+                "description": "Kaunas",
+                "locationIcon": true
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

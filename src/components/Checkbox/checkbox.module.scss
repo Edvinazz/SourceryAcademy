@@ -1,0 +1,59 @@
+.wrapper {
+  align-items: flex-start;
+  display: flex;
+  margin-top: 1rem;
+}
+
+.checkbox-field {
+  appearance: none;
+  background-color: var(--color-white);
+  border: solid 0.2rem var(--color-gray-medium-dark);
+  border-radius: 0.4rem;
+  cursor: pointer;
+  height: 2.2rem;
+  margin-right: var(--spacer-xl);
+  width: 2.2rem;
+
+  &:hover {
+    border: solid 0.2rem var(--color-tertiary);
+    transition: 0.2s ease-in;
+  }
+
+  &:checked {
+    background-color: var(--color-tertiary);
+    border: solid 0.2rem var(--color-tertiary);
+    transition: 0.2s ease-in;
+  }
+
+  &::after {
+    border: solid var(--color-white);
+    border-width: 0 0.3rem 0.3rem 0;
+    content: '';
+    cursor: pointer;
+    display: block;
+    height: 1.3rem;
+    left: 0.7rem;
+    position: relative;
+    top: 0.2rem;
+    transform: rotate(45deg);
+    transition: 0.2s ease-in;
+    width: 0.6rem;
+  }
+}
+
+.label-checkbox {
+  color: var(--color-gray-dark);
+  flex: 1;
+  line-height: 3rem;
+  margin: 0;
+  max-width: 46rem;
+  position: relative;
+}
+
+.error-message {
+  color: var(--color-asterisk);
+  display: block;
+  font-size: var(--font-size-testimonials);
+  margin: 0;
+  padding: var(--spacer-s);
+}

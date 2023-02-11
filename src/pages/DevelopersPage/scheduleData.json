@@ -1,0 +1,248 @@
+[
+  {
+    "schedules": "March / April",
+    "monthSchedule": [
+      {
+        "month": "March",
+        "schedule": [
+          {
+            "title": "Git & JS Fundamentals",
+            "description": "Paulius Sabeckis, Paulius Beneta",
+            "time": "Offline",
+            "duration": "3 hours",
+            "content": [
+              {
+                "date": "2020 March 8",
+                "description": "Vilnius",
+                "locationIcon": true
+              },
+              {
+                "date": "2020 March 9",
+                "description": "Kaunas",
+                "locationIcon": true
+              }
+            ]
+          },
+          {
+            "title": "Web basics",
+            "description": "Paulius Sabeckis, Paulius Beneta",
+            "time": "Offline",
+            "duration": "3 hours",
+            "content": [
+              {
+                "date": "2020 March 16",
+                "description": "Vilnius",
+                "locationIcon": true
+              },
+              {
+                "date": "2020 March 15",
+                "description": "Kaunas",
+                "locationIcon": true
+              }
+            ]
+          },
+          {
+            "title": "React fundamentals",
+            "description": "Paulius Sabeckis, Paulius Beneta",
+            "time": "Offline",
+            "duration": "5 hours",
+            "content": [
+              {
+                "date": "2020 March 22",
+                "description": "Vilnius",
+                "locationIcon": true
+              },
+              {
+                "date": "2020 March 23",
+                "description": "Kaunas",
+                "locationIcon": true
+              }
+            ]
+          },
+          {
+            "title": "React router and Redux",
+            "description": "Paulius Sabeckis, Paulius Beneta",
+            "time": "Offline",
+            "duration": "3 hours",
+            "content": [
+              {
+                "date": "2020 March 27",
+                "description": "Vilnius",
+                "locationIcon": true
+              },
+              {
+                "date": "2020 March 30",
+                "description": "Kaunas",
+                "locationIcon": true
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "month": "April",
+        "schedule": [
+          {
+            "title": "Async & Testing for Developers",
+            "description": "Paulius Sabeckis, Paulius Beneta",
+            "time": "Offline",
+            "duration": "3 hours",
+            "content": [
+              {
+                "date": "2020 April 5",
+                "description": "Vilnius",
+                "locationIcon": true
+              },
+              {
+                "date": "2020 April 6",
+                "description": "Kaunas",
+                "locationIcon": true
+              }
+            ]
+          },
+          {
+            "title": "REST API fundamentals",
+            "description": "Paulius Sabeckis, Paulius Beneta",
+            "time": "Offline",
+            "duration": "5 hours",
+            "content": [
+              {
+                "date": "2020 April 12",
+                "description": "Vilnius",
+                "locationIcon": true
+              },
+              {
+                "date": "2020 April 13",
+                "description": "Kaunas",
+                "locationIcon": true
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "schedules": "April / May",
+    "monthSchedule": [
+      {
+        "month": "April",
+        "schedule": [
+          {
+            "title": "Spring framework",
+            "description": "Paulius Sabeckis, Paulius Beneta",
+            "time": "Offline",
+            "duration": "3 hours",
+            "content": [
+              {
+                "date": "2020 April 19 ",
+                "description": "Vilnius",
+                "locationIcon": true
+              },
+              {
+                "date": "2020 April 20",
+                "description": "Kaunas",
+                "locationIcon": true
+              }
+            ]
+          },
+          {
+            "title": "Databases",
+            "description": "Paulius Sabeckis, Paulius Beneta",
+            "time": "Offline",
+            "duration": "4 hours",
+            "content": [
+              {
+                "date": "2020 April 26",
+                "description": "Vilnius",
+                "locationIcon": true
+              },
+              {
+                "date": "2020 April 27",
+                "description": "Kaunas",
+                "locationIcon": true
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "month": "May",
+        "schedule": [
+          {
+            "title": "Authentication, Authorization",
+            "description": "Paulius Sabeckis, Paulius Beneta",
+            "time": "Offline",
+            "duration": "3 hours",
+            "content": [
+              {
+                "date": "2020 May 3",
+                "description": "Vilnius",
+                "locationIcon": true
+              },
+              {
+                "date": "2020 May 4",
+                "description": "Kaunas",
+                "locationIcon": true
+              }
+            ]
+          },
+          {
+            "title": "Development best practices",
+            "description": "Paulius Sabeckis, Paulius Beneta",
+            "time": "Offline",
+            "duration": "4 hours",
+            "content": [
+              {
+                "date": "2020 May 10",
+                "description": "Vilnius",
+                "locationIcon": true
+              },
+              {
+                "date": "2020 May 10",
+                "description": "Kaunas",
+                "locationIcon": true
+              }
+            ]
+          },
+          {
+            "title": "Final Exam",
+            "description": "Paulius Sabeckis, Paulius Beneta",
+            "time": "Offline",
+            "duration": "5 hours",
+            "content": [
+              {
+                "date": "2020 May 15",
+                "description": "Vilnius",
+                "locationIcon": true
+              },
+              {
+                "date": "2020 May 15",
+                "description": "Kaunas",
+                "locationIcon": true
+              }
+            ]
+          },
+          {
+            "title": "Demo, Results and Rewards",
+            "description": "Paulius Sabeckis, Paulius Beneta",
+            "time": "Offline",
+            "duration": "5 hours",
+            "content": [
+              {
+                "date": "2020 May 24",
+                "description": "Vilnius",
+                "locationIcon": true
+              },
+              {
+                "date": "2020 May 25",
+                "description": "Kaunas",
+                "locationIcon": true
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,74 @@
+:root {
+  /* Colors */
+  --color-default: #3d3691;
+  --color-primary: #3d3691;
+  --color-secondary: #584dfc;
+  --color-tertiary: #584dfc;
+  --color-blue: #0048c1;
+  --color-blue-light: #4d8af0;
+  --color-blue-lightest: #17bce3;
+  --color-green: #0b555f;
+  --color-green-light: #009b84;
+  --color-green-lightest: #1ce5af;
+  --color-red: #b40031;
+  --color-red-light: #ed1d55;
+  --color-red-lightest: #ed1d55;
+  --color-background: #f2f2f2;
+  --color-white: #fff;
+  --color-black: #000;
+  --color-gray-light: #f6f5f7;
+  --color-gray-medium-light: #ededed;
+  --color-gray-medium: #868686;
+  --color-gray-medium-dark: #5c5c5c;
+  --color-gray-dark: #3e3c4e;
+  --color-selection: #dbdbe8;
+  --color-focus: #f89e4b;
+  --color-secondary-shade: #483ed8;
+  --color-secondary-tint: #7971fd;
+  --color-blue-light-shade: #3f73cb;
+  --color-blue-light-tint: #71a1f3;
+  --color-green-light-shade: #007c6a;
+  --color-green-light-tint: #1faf9a;
+  --color-red-light-shade: #c01745;
+  --color-red-light-tint: #f14a77;
+  --color-asterisk: #ff2672;
+  --color-steps-section-1: #17bce3;
+  --color-steps-section-2: #4d8af0;
+  --color-steps-section-3: #0048c1;
+  --color-video-player-default: #584dfc;
+
+  /* BORDERS */
+  --border-radius-main: 2rem;
+  --border-radius-s: 1rem;
+  --border-radius-round: 50%;
+  --border-colored: 0.2rem solid var(--color-primary);
+  --box-shadow: -1.9rem 2.1rem 0 0.1rem var(--color-gray-light);
+
+  /* Typography */
+  --font-size-base: 1.8rem;
+  --font-size-regular: 1.6rem;
+  --font-size-testimonials: 1.4rem;
+  --font-size-heading-big: 4.8rem;
+  --font-size-heading-medium: 3.2rem;
+  --font-size-heading-small: 2rem;
+  --font-weight-regular: 400;
+  --font-weight-bold: 700;
+  --font-family-regular: 'Raleway', sans-serif;
+  --font-family-heading: 'Montserrat', sans-serif;
+  --line-height-base: 1.5;
+  --line-height-heading: 1.2;
+
+  /* Spacers */
+  --spacer-xxs: 0.4rem;
+  --spacer-xs: 0.8rem;
+  --spacer-s: 1.2rem;
+  --spacer-m: 1.6rem;
+  --spacer: var(--spacer-m); /* alias for --spacer-m */
+  --spacer-l: 2rem;
+  --spacer-xl: 2.4rem;
+  --spacer-xxl: 3.2rem;
+  --spacer-xxxl: 4rem;
+  --spacer-xxxxl: 5rem;
+  --spacer-xxxxxl: 7rem;
+  --spacer-xxxxxxl: 8rem;
+}

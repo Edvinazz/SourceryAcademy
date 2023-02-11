@@ -1,0 +1,120 @@
+/* Global element rules
+   Elements, that needs to be styled globally, should be styled here.
+   only native html elements/selectors should be here, if you have class styled in this file - consider separating it to another file.
+*/
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+
+html[data-theme='blue'] {
+  --color-primary: var(--color-blue);
+  --color-secondary: var(--color-blue-light);
+  --color-tertiary: var(--color-blue-lightest);
+  --color-steps-section-1: var(--color-blue-lightest);
+  --color-steps-section-2: var(--color-blue-light);
+  --color-steps-section-3: var(--color-blue-lightest);
+  --color-secondary-shade: var(--color-blue-light-shade);
+  --color-secondary-tint: var(--color-blue-light-tint);
+}
+
+html[data-theme='green'] {
+  --color-primary: var(--color-green);
+  --color-secondary: var(--color-green-light);
+  --color-tertiary: var(--color-green-lightest);
+  --color-steps-section-1: var(--color-green-lightest);
+  --color-steps-section-2: var(--color-green-light);
+  --color-steps-section-3: var(--color-green-lightest);
+  --color-secondary-shade: var(--color-green-light-shade);
+  --color-secondary-tint: var(--color-green-light-tint);
+}
+
+html[data-theme='red'] {
+  --color-primary: var(--color-red);
+  --color-secondary: var(--color-red-light);
+  --color-tertiary: var(--color-red-lightest);
+  --color-secondary-shade: var(--color-red-light-shade);
+  --color-secondary-tint: var(--color-red-light-tint);
+  --color-steps-section-1: var(--color-red);
+  --color-steps-section-2: var(--color-red-light);
+  --color-steps-section-3: var(--color-gray-light);
+}
+
+body {
+  background-color: var(--color-white);
+  font-family: var(--font-family-regular);
+  font-size: var(--font-size-base);
+  font-weight: var(--font-weight-regular);
+  line-height: var(--line-height-base);
+  margin: 0;
+  min-height: 100vh;
+  min-width: 100%;
+}
+
+p,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+a,
+button {
+  &::selection {
+    background-color: var(--color-selection);
+    text-shadow: none;
+  }
+}
+
+[disabled] {
+  cursor: not-allowed;
+}
+
+[aria-busy='true'] {
+  cursor: wait;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+table {
+  table-layout: fixed;
+  width: 100%;
+}
+
+::-webkit-scrollbar {
+  height: var(--spacer-s);
+  width: var(--spacer-s);
+
+  &-track {
+    background: var(--color-gray-medium-light);
+    border-radius: 100vw;
+    margin-block: var(--spacer-xs);
+  }
+
+  &-thumb {
+    background: var(--color-secondary);
+    border-radius: 100vw;
+
+    &:hover {
+      background: var(--color-secondary-shade);
+    }
+  }
+}
+
+@supports (scrollbar-color: #000 #fff) {
+  * {
+    scrollbar-color: var(--color-secondary) var(--color-gray-medium-light);
+    scrollbar-width: thin;
+  }
+}

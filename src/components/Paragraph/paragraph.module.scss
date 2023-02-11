@@ -1,0 +1,58 @@
+.regular {
+  @include regular-paragraph;
+
+  color: var(--color-gray-dark);
+}
+
+.regular--gray {
+  @include regular-paragraph;
+
+  color: var(--color-gray-medium);
+}
+
+.regular--bold {
+  @include regular-paragraph;
+
+  color: var(--color-gray-dark);
+  font-weight: var(--font-weight-bold);
+}
+
+.colored--big {
+  @include paragraph-setup;
+  @include respond(phone) {
+    font-size: var(--font-size-regular);
+  }
+
+  color: var(--color-primary);
+  font-size: var(--font-size-base);
+}
+
+.colored--medium {
+  @include paragraph-setup;
+  @include respond(phone) {
+    font-size: var(--font-size-regular);
+  }
+
+  color: var(--color-primary);
+  font-size: var(--font-size-base);
+  font-weight: var(--font-weight-bold);
+}
+
+.colored {
+  @include paragraph-setup;
+
+  color: var(--color-primary);
+  font-size: var(--font-size-testimonials);
+}
+
+.bold {
+  @include respond(phone) {
+    font-size: var(--font-size-heading-small);
+  }
+
+  color: var(--color-gray-dark);
+  font-family: var(--font-family-heading);
+  font-size: var(--font-size-heading-medium);
+  font-weight: var(--font-weight-bold);
+  margin: 0;
+}

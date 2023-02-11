@@ -1,0 +1,103 @@
+.wrapper {
+  @include display-flex(row, stretch, center);
+
+  background: url('../../assets/svg/Particles/ParticlesHome.svg') no-repeat 50%
+    0;
+  min-height: 100vh;
+  min-width: 100%;
+}
+
+.container {
+  @include display-flex(column);
+
+  gap: var(--spacer-xxxxl);
+  max-width: 140rem;
+  min-height: 100vh;
+  padding: var(--spacer-xxxl) var(--spacer-xxxxxxl);
+  width: 100%;
+
+  @include respond(tab-port) {
+    align-items: center;
+    padding: var(--spacer-xxxl) var(--spacer-xxxxl);
+  }
+}
+
+.section {
+  @include display-flex(column);
+
+  gap: var(--spacer-xxxxl);
+}
+
+.option-box {
+  display: flex;
+  gap: var(--spacer-s);
+  width: 100%;
+
+  @include respond(tab-port) {
+    justify-content: space-between;
+    width: 70%;
+  }
+
+  @include respond(phone) {
+    width: 90%;
+  }
+}
+
+.option {
+  background-color: transparent;
+  border: 0;
+  color: var(--color-secondary);
+  cursor: pointer;
+  font-family: var(--font-family-regular);
+  font-size: var(--font-size-heading-small);
+  font-weight: var(--font-weight-bold);
+  padding: 0;
+
+  &:hover {
+    color: var(--color-secondary-shade);
+  }
+
+  &:focus-visible {
+    color: var(--color-secondary-tint);
+    outline: 0.4rem dashed var(--color-focus);
+  }
+
+  &--active {
+    color: var(--color-focus);
+  }
+
+  @include respond(phone) {
+    font-size: var(--font-size-regular);
+  }
+}
+
+.line-container {
+  position: relative;
+  width: 100%;
+}
+
+.line {
+  display: flex;
+  position: absolute;
+  stroke: var(--color-primary);
+  stroke-width: 2;
+  z-index: -10;
+
+  &--top {
+    bottom: -4rem;
+    left: -7rem;
+    width: 40rem;
+  }
+
+  &--bottom {
+    bottom: 0;
+    margin: auto 0;
+    right: -6.1rem;
+    top: 0;
+    width: 4rem;
+  }
+
+  @include respond(tab-port) {
+    display: none;
+  }
+}

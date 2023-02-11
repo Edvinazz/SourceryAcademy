@@ -1,0 +1,79 @@
+.wrapper {
+  background: url('../../assets/svg/Particles/ParticlesRegister.svg') no-repeat
+    50% 0;
+  display: flex;
+  justify-content: center;
+  min-height: 100vh;
+  min-width: 100%;
+}
+
+.container {
+  @include respond(tab-port) {
+    padding: var(--spacer-xxxl) var(--spacer-xxxxl);
+  }
+  @include respond(phone) {
+    padding: var(--spacer-xxxl) var(--spacer-xxxl);
+  }
+
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacer-xxxxxxl);
+  max-width: 150rem;
+  min-height: 100vh;
+  padding: var(--spacer-xxxl) var(--spacer-xxxxxl);
+  width: 100%;
+}
+
+.content {
+  @include respond(tab-port) {
+    flex-direction: column;
+    gap: var(--spacer-xxxxl);
+  }
+
+  display: flex;
+  gap: var(--spacer-xxxxxxl);
+  justify-content: space-between;
+}
+
+.application {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  gap: var(--spacer-xxxxl);
+}
+
+.figure {
+  @include respond(tab-port) {
+    margin: var(--spacer-xxxxl) 0;
+    place-self: center;
+  }
+
+  flex: 1;
+  max-width: 60rem;
+}
+
+.error {
+  color: var(--color-asterisk);
+  margin: 0;
+}
+
+// laikini stiliai laikiniem komponentam
+.radio-wrapper {
+  display: flex;
+  gap: 3rem;
+  height: 6rem;
+  width: 27rem;
+}
+
+.privacy {
+  width: 100%;
+}
+
+.success {
+  background-color: var(--color-gray-light);
+  color: var(--color-gray);
+  height: 5rem;
+  min-width: 15rem;
+  padding: 1rem 3rem;
+  width: fit-content;
+}

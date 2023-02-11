@@ -1,0 +1,66 @@
+{
+  "meta": {
+    "title": "Register for Sourcery Academy",
+    "description": "Join our free education program and empower yourself for a career in the IT industry. Register for Sourcery Academy in Vilnius or Kaunas and learn the skills you need to succeed."
+  },
+  "toggle": [
+    { "id": "full-stack", "title": "Full-stack" },
+    { "id": "testers", "title": "Testers" },
+    { "id": "front-end", "title": "Front-end" }
+  ],
+  "toggleTitle": { "name": "Academy type", "isRequired": true },
+  "personalInfoForm": [
+    {
+      "id": "name",
+      "title": "First name",
+      "type": "text",
+      "placeholder": "Enter your first name",
+      "isRequired": true,
+      "errorMessage": "Field is required."
+    },
+    {
+      "id": "surname",
+      "title": "Last name",
+      "type": "text",
+      "placeholder": "Enter your last name",
+      "isRequired": true,
+      "errorMessage": "Field is required."
+    },
+    {
+      "id": "email",
+      "title": "Email",
+      "type": "email",
+      "placeholder": "Enter your email",
+      "isRequired": true,
+      "errorMessage": "Field is required."
+    },
+    {
+      "id": "resume",
+      "title": "Resume",
+      "type": "file",
+      "placeholder": "Upload your resume",
+      "isRequired": true,
+      "errorMessage": "Field is required.",
+      "acceptFileTypes": ".pdf,.doc,.docx,.odt,.rtf,application/pdf,application/msword,application/vnd.openxmlformats-officedocument.wordprocessingml.document,application/vnd.oasis.opendocument.text,application/rtf"
+    }
+  ],
+  "radioOptions": [
+    {
+      "id": 1,
+      "city": "Kaunas",
+      "name": "city",
+      "value": "Kaunas"
+    },
+    {
+      "id": 2,
+      "city": "Vilnius",
+      "name": "city",
+      "value": "Vilnius"
+    }
+  ],
+  "checkboxInfo": {
+    "label": "I have read, understand and accept the content of the Privacy Notice and consent to the processing of my data as part of this application",
+    "name": "privacy"
+  },
+  "success": { "heading": "Thank you!", "message": "Your form was submitted" }
+}

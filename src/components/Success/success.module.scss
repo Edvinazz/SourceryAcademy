@@ -1,0 +1,39 @@
+@keyframes fadeInUp {
+  0% {
+    opacity: 0;
+    scale: 0.1;
+  }
+
+  50% {
+    opacity: 1;
+    scale: 1.5;
+  }
+
+  80% {
+    opacity: 1;
+    scale: 0.5;
+  }
+
+  100% {
+    scale: 1;
+  }
+}
+
+.container {
+  @include display-flex(column, center, center);
+
+  flex: 1;
+  gap: var(--spacer-s);
+  justify-content: center;
+  padding: var(--spacer-xxxl) var(--spacer-l) var(--spacer-l) var(--spacer-l);
+  text-align: center;
+}
+
+.icon {
+  animation: fadeInUp 0.8s ease;
+  background: no-repeat center/auto
+    url('../../assets/svg/Icons/SuccessIcon.svg');
+  height: 11rem;
+  margin-bottom: var(--spacer-xl);
+  width: 11rem;
+}

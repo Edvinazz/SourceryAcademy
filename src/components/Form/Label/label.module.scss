@@ -1,0 +1,19 @@
+.wrapper {
+  @include very-small-heading;
+
+  align-items: center;
+  color: var(--color-gray-medium-dark);
+  display: flex;
+  position: relative;
+
+  &--error {
+    color: var(--color-asterisk);
+  }
+}
+
+.required {
+  color: var(--color-asterisk);
+  font-size: var(--font-size-heading-small);
+  font-weight: var(--font-weight-bold);
+  margin-right: var(--spacer-xxs);
+}

@@ -1,0 +1,35 @@
+.container {
+  @include display-flex(column);
+
+  gap: var(--spacer-xxs);
+  position: relative;
+}
+
+input[type='file'] {
+  background: url('../../../assets/svg/Icons/InputUploadIcon.svg') 98% center
+    no-repeat;
+  cursor: pointer;
+}
+
+input[type='file']::file-selector-button {
+  display: none;
+}
+
+.file-placeholder {
+  color: var(--color-gray-medium);
+  cursor: pointer;
+  font-family: var(--font-family-regular);
+  font-size: var(--font-size-base);
+  font-weight: var(--font-weight-regular);
+  left: var(--spacer-s);
+  position: absolute;
+  top: 3.7rem;
+  width: 100%;
+}
+
+.error {
+  @include very-small-heading;
+
+  color: var(--color-asterisk);
+  padding-left: var(--spacer-s);
+}

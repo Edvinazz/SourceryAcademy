@@ -1,0 +1,36 @@
+.btn {
+  background-color: var(--color-secondary);
+  border: 0;
+  border-radius: 4.8rem;
+  color: var(--color-white);
+  cursor: pointer;
+  display: inline-block;
+  font-family: var(--font-family-regular);
+  font-size: var(--font-size-base);
+  font-weight: var(--font-weight-bold);
+  justify-content: center;
+  line-height: 1.15;
+  margin: 0;
+  padding: var(--spacer-s) var(--spacer-xl);
+  text-decoration: none;
+  transition: background-color 0.2s;
+  width: fit-content;
+
+  &:hover {
+    background-color: var(--color-secondary-shade);
+  }
+
+  &:active {
+    background-color: var(--color-secondary-tint);
+  }
+
+  &:focus {
+    background-color: var(--color-secondary-tint);
+    outline: 0.2rem solid var(--color-secondary-shade);
+  }
+
+  &:focus-visible {
+    background-color: var(--color-secondary-tint);
+    outline: 0.4rem dashed var(--color-focus);
+  }
+}

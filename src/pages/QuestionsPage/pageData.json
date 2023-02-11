@@ -1,0 +1,165 @@
+{
+  "meta": {
+    "title": "F.A.Q. - Sourcery Academy",
+    "description": "Find answers to common questions about our Sourcery Academies"
+  },
+  "General": {
+    "title": "General questions",
+    "short": "General",
+    "id": "FaqG",
+    "questions": [
+      {
+        "id": "gq01",
+        "Question": "Do I need to bring laptop to Academy?",
+        "Answer": "Yes, a personal laptop is required. However, in case you do not have it, the company offers the possibility to use the laptop during lectures at Devbridge/Cognizant Softvision Kaunas or Vilnius office (the city depends on the location where you took the entrance test)."
+      },
+
+      {
+        "id": "gq02",
+        "Question": "Will you shift to remote learning?",
+        "Answer": "Weekly lectures are held virtually, however, weekly team meeting will be arranged in the office by an assigned mentor."
+      },
+
+      {
+        "id": "gq03",
+        "Question": "When should applicants expect to be notified of acceptance?",
+        "Answer": "We will finalize the full class at least 30 days prior to start. Applications are reviewed as they are submitted. You can expect to hear back within a week or so after applying with next steps."
+      },
+
+      {
+        "id": "gq04",
+        "Question": "Is it possible to listen to recorded lessons or can I attend lectures in both cities if I have a rolling schedule at work/university?",
+        "Answer": "Yes, the recordings are sent to all admitted students after they sign agreements based on GDPR. However, keep in mind that weekly team meeting will be arranged in the office."
+      },
+
+      {
+        "id": "gq05",
+        "Question": "Why are you running these Academies?",
+        "Answer": "As an organization, we're always looking to give back to the communities that we operate in. As a business, we've been building complex software products for over a decade for more than 100 clients. We love what we do, and we think we've learned some hard lessons along the way. We firmly believe that spreading that hard-won knowledge is key to our industry continuing to evolve and improve. Ultimately, we believe strongly in seeking mastery, and we love to encourage that mindset not only in our team, but with our clients, and the community."
+      }
+    ]
+  },
+
+  "Academies": [
+    {
+      "title": "Sourcery for Developers",
+      "short": "Developers",
+      "id": "FaqDev",
+      "questions": [
+        {
+          "id": "dq01",
+          "Question": "Is this course for me?",
+          "Answer": "This free-to-attend course is for everyone who is willing to learn the latest web technologies. We do not require any advanced development skills from you before the academy. However, you need to have at least basics of OOP in order to pass the admission. We are looking for smart, motivated people who are thinking outside the box and willing to learn the latest web technologies in order to kick start their career in IT as Junior software engineers."
+        },
+
+        {
+          "id": "dq02",
+          "Question": "How much time does the academy take?",
+          "Answer": "If you want to graduate the academy successfully, you will have to dedicate ±20 hours per week. Approximately three hours should be dedicated for an offline weekly lectures. Other time should be dedicated for your personal development in order implement IT project in a team as well as to build your competence through trainings and individual or groups assignments."
+        },
+
+        {
+          "id": "dq03",
+          "Question": "How to prepare for the admission?",
+          "Answer": "Do your best to prepare for the Entry Tests which is designed to check your logics, C# or JAVA (depends on the semester), JavaScript, OOP, SQL basics, software analysis and design skills. You need to show up on exact date, time and location where the test will be held. This information is provided on our website home page. During the test you need to have a pen only, no other materials or electronic devices allowed to use. Exam duration - 2 hours. There won't be any negative grades for wrong answers. The best-performing students will receive direct invitations to the academy. We accept 20 candidates with highest marks into academy."
+        },
+
+        {
+          "id": "dq04",
+          "Question": "What time do lectures start?",
+          "Answer": "The Academy provides offline content based on ten different topics. Each topic requires three hours of learning per week. This e-learning course takes three months in total, available in the Fall and Spring of each year (from October to Mid January and from March to Mid May)."
+        }
+      ]
+    },
+    {
+      "title": "Sourcery for Testers",
+      "short": "Testers",
+      "id": "FaqTest",
+      "questions": [
+        {
+          "id": "tq01",
+          "Question": "Is this course for me?",
+          "Answer": "If you are eager to get into the tech industry - choose software testing! This free-of-charge two-month course is for smart, motivated people who are thinking outside the box as well as willing to learn core testing basics to kick start their career in IT and help create better software for end-users. We do not require any testing skills from the candidates before the academy. However, we guarantee you that after you graduate the academy you will know a lot about all types, techniques and testing approaches required for junior test engineers."
+        },
+
+        {
+          "id": "tq02",
+          "Question": "How much time does the academy take?",
+          "Answer": "If you want to graduate the academy successfully, you will have to dedicate 10-15 hours per week. Approximately five hours should be dedicated for each lecture. Other time should be dedicated for your personal development in order to build your competence through trainings and individual or groups assignments."
+        },
+
+        {
+          "id": "tq03",
+          "Question": "How to prepare for the admission?",
+          "Answer": "The Academy has two phase based admission. First of all, try to do your best during the first phase - apply a perfect resume that would reflect your interest in IT industry, i.e., courses, events, conferences, meetups that you had attended and ect. Also confirm only fully and precisely answered questions. Best performing candidates (80) are invited to participate at the admission workshop which is a fun workshop challenging candidates critical thinking, problem solving, communication and team working skills. During the workshop use your best personal skills in order to achieve the best result for your team."
+        },
+
+        {
+          "id": "tq04",
+          "Question": "What time do lectures start?",
+          "Answer": "The Academy provides weekly lectures (once or twice per week). Three hour long lectures usually start at 4 pm each Tuesday in Vilnius or Wednesday in Kaunas."
+        }
+      ]
+    },
+    {
+      "title": "Sourcery for Front-End",
+      "short": "Front-End",
+      "id": "FaqFe",
+      "questions": [
+        {
+          "id": "feq01",
+          "Question": "Is this course for me?",
+          "Answer": "This free-to-attend course is for everyone who is willing to learn the latest Front-End technologies. We do not require any advanced Front-End development skills from you before the academy. However, you need to have at least basics of front-end development in order to pass the admission. We are looking for smart, motivated people who are thinking outside the box and willing to learn the latest web technologies in order to kick start their career in IT as Junior Front-End software engineers.v"
+        },
+
+        {
+          "id": "feq02",
+          "Question": "How much time does the academy take?",
+          "Answer": "If you want to graduate the academy successfully, you will have to dedicate ±20 per week. Approximately three hours should be dedicated for each lecture. Other time should be dedicated for your personal development in order implement IT project in a team as well as to build your competence through trainings and individual or groups assignments."
+        },
+
+        {
+          "id": "feq03",
+          "Question": "How to prepare for the admission?",
+          "Answer": "The Academy has three phase based admission. First of all, try to do your best during the first phase - apply well-done resume that would reflect your interest in IT field. Secondly, try to pass the Entry Test and confirm only fully and precisely answered questions. The test will allow to assess your knowledge in HTML, CSS and JavaScript. There won't be any negative grades for wrong answers. Finally, the best-performing students will receive direct invitations to the academy after they pass the third phase - the admission workshop. During the workshop use your best personal skills in order to achieve the best result for your team."
+        },
+
+        {
+          "id": "feq04",
+          "Question": "What time do lectures start?",
+          "Answer": "The Academy provides weekly lectures (once or twice per week). Three hours long lectures usually starts at 4 pm each Tuesday in Vilnius or Wednesday in Kaunas. This three-month course ir available in the Fall of each year (from October to Mid January)."
+        }
+      ]
+    },
+    {
+      "title": "Sourcery for Kids",
+      "short": "Kids",
+      "id": "FaqK",
+      "questions": [
+        {
+          "id": "kq01",
+          "Question": "Who is this course for?",
+          "Answer": "Sourcery Academy for Kids is the first and only free-to-attend academy in Lithuania that teaches creative technologies to kids ages 7 to 12. Our goal is to provide computer literacy to all children already in primary schools, especially those in remote or economically underprivileged areas."
+        },
+
+        {
+          "id": "kq02",
+          "Question": "How much time does the academy take?",
+          "Answer": "Sessions are held all year round on Saturdays. Kids break out into small groups of 7 to 9, each group learning for 2 hours with support of a dedicated mentor with a technology background."
+        },
+
+        {
+          "id": "kq03",
+          "Question": "What do children learn in the academy?",
+          "Answer": "Children learn creative technologies for free in order to discover the coding world. Kids study key aspects of programming and creative learning, learn new instruments, develop their logical as well as creative thinking. Children have the ability to combine different technologies in order to use the gained skills needed to succeed in the tech industries such as design, electronics, 3D, animation, virtual reality (VR), game development and software development."
+        },
+
+        {
+          "id": "kq04",
+          "Question": "How do you teach?",
+          "Answer": "Pupils at Sourcery for Kids academy are taught using a non-formal education program (NSP) accredited by our partners bit&Byte. This educational program helps in taking first steps in programming as well as encourages creativity, curiosity and other significant skills that play a critical role in so-called future professions."
+        }
+      ]
+    }
+  ]
+}

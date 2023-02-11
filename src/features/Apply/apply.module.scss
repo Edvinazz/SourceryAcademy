@@ -1,0 +1,22 @@
+.line {
+  margin: 0 auto;
+  position: absolute;
+  right: -3rem;
+  stroke: var(--color-primary);
+  stroke-width: 2;
+  top: -24rem;
+  width: 21rem;
+  z-index: -10;
+
+  &-container {
+    position: relative;
+  }
+
+  @include respond(tab-land) {
+    right: -6rem;
+  }
+
+  @include respond(tab-port) {
+    display: none;
+  }
+}

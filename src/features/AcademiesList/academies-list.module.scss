@@ -1,0 +1,97 @@
+.section {
+  @include display-flex(column);
+
+  gap: calc(var(--spacer-xxxxl) * 4);
+  height: auto;
+  margin: 0;
+  padding: var(--spacer-xxxxl) 0 var(--spacer-xxxxl);
+
+  @include respond(tab-land) {
+    gap: calc(var(--spacer-xxxxl) * 3);
+  }
+
+  @include respond(tab-port) {
+    gap: calc(var(--spacer-xxxxl) * 5);
+    width: 80%;
+  }
+
+  @include respond(phone) {
+    gap: calc(var(--spacer-xxxxl) * 4);
+    width: 100%;
+  }
+}
+
+.intro {
+  @include display-flex(column, stretch, center);
+
+  gap: var(--spacer-xxxl);
+  margin: 0 auto;
+  min-height: 80vh;
+  text-align: center;
+  width: 80%;
+
+  @include respond(tab-land) {
+    margin: 0 auto var(--spacer-xxxxxl);
+  }
+
+  @include respond(tab-port) {
+    min-height: auto;
+    padding-top: var(--spacer-xxxxxl);
+  }
+
+  @include respond(phone) {
+    align-items: center;
+    margin: var(--spacer-l) auto calc((var(--spacer-l)) * 2);
+    width: 100%;
+  }
+}
+
+.background {
+  background: url('../../assets/svg/ParticlesSmall.svg') no-repeat center;
+}
+
+.line {
+  margin: 0 auto;
+  position: absolute;
+  stroke: var(--color-primary);
+  stroke-width: 2;
+  z-index: -10;
+
+  &-container {
+    position: relative;
+  }
+
+  &--1 {
+    left: -8rem;
+    top: -22rem;
+    width: 67rem;
+
+    @include respond(tab-land) {
+      left: -2rem;
+    }
+
+    @include respond(tab-port) {
+      display: none;
+    }
+  }
+
+  &--2 {
+    left: -15rem;
+    top: -10rem;
+    width: 70rem;
+
+    @include respond(tab-land) {
+      display: none;
+    }
+  }
+
+  &--3 {
+    left: -7rem;
+    top: -7rem;
+    width: 66rem;
+
+    @include respond(tab-port) {
+      display: none;
+    }
+  }
+}

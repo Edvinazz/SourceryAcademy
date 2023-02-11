@@ -1,0 +1,45 @@
+.field {
+  background-color: var(--color-white);
+  border: 0.1rem solid var(--color-gray-medium-dark);
+  border-radius: var(--border-radius-s);
+  color: var(--color-gray-medium);
+  font-family: var(--font-family-regular);
+  font-size: var(--font-size-base);
+  font-weight: var(--font-weight-regular);
+  overflow: hidden;
+  padding: var(--spacer-s);
+  position: relative;
+  width: 100%;
+
+  &:focus,
+  &:active {
+    border: 0.1rem solid var(--color-secondary);
+    color: var(--color-secondary);
+    outline: none;
+
+    @include respond(phone) {
+      font-size: var(--font-size-regular);
+    }
+  }
+
+  &--required {
+    border: 0.1rem solid var(--color-asterisk);
+  }
+
+  &--unchanged {
+    &,
+    &:active,
+    &:focus,
+    &:hover {
+      color: transparent;
+    }
+  }
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus {
+  box-shadow: 0 0 0 1000px var(--color-selection) inset;
+  -webkit-text-fill-color: var(--color-gray-dark);
+  transition: background-color 5000s ease-in-out 0s;
+}

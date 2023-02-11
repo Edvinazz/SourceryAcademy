@@ -1,0 +1,28 @@
+.radio-label {
+  background-color: transparent;
+  border: 0.2rem solid transparent;
+  border-radius: 7rem;
+  color: var(--color-gray-dark);
+  cursor: pointer;
+  display: inline-block;
+  font-weight: var(--font-weight-bold);
+  margin: var(--spacer-xs);
+  min-width: 18rem;
+  padding: var(--spacer-s) var(--spacer-l);
+  position: relative;
+  text-align: center;
+  transition: all 250ms ease-in-out;
+
+  &:hover {
+    border: 0.2rem solid var(--color-secondary);
+  }
+}
+
+.radio-button {
+  @include visually-hidden;
+
+  &:checked + label {
+    background-color: transparent;
+    color: var(--color-white);
+  }
+}
